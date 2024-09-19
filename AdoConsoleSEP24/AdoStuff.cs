@@ -1,7 +1,9 @@
-﻿using Microsoft.Data.SqlClient;
+﻿
 using System;
 using System.Collections.Generic;
-//using System.Data.SqlClient;
+using System.Data;
+using Microsoft.Data.SqlClient;
+//using System.Data.SqlClient "upgrades to Microsoft.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -63,6 +65,33 @@ namespace AdoConsoleSEP24
             }
             
         }
+
+
+        static void GetSchemaInfo (SqlConnection connection )
+        {
+            using (connection)
+            {
+                SqlCommand command = new (
+                    "SELECT CategoryID, CategoryName FROM Categories;", connection );
+                connection.Open ();
+
+                SqlDataReader reader = command.ExecuteReader ();
+                DataTable schemaTable = reader.GetSchemaTable ();
+
+                foreach (DataRow row in schemaTable.Rows) 
+                {
+                    foreach (DataColumn column in schemaTable.Columns)
+                    {
+                        Console.WriteLine(string.Format("{0} = {1}", column.ColumnName, row [column]));
+                    }
+                
+                } 
+                    
+            }
+        }
+
+
+
 
 
     }

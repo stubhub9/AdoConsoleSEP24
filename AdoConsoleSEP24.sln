@@ -5,6 +5,12 @@ VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoConsoleSEP24", "AdoConsoleSEP24\AdoConsoleSEP24.csproj", "{DCEF7EF0-2CC0-4B5C-86FA-FA09FE6AC79C}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BasicAdoStuff", "BasicAdoStuff\BasicAdoStuff.vbproj", "{57774BCC-0069-4D71-8A15-A2C888B1B16B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySqlClient", "MySqlClient\MySqlClient.csproj", "{5982127A-A2F6-4A1C-96F5-1DB5396D0683}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDefault_NotTopLeveled_ConsoleAppSEP24", "MyDefault_NotTopLeveled_ConsoleAppSEP24\MyDefault_NotTopLeveled_ConsoleAppSEP24.csproj", "{B3684F86-1D7B-4EC3-82AD-C07CA24BC348}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{DCEF7EF0-2CC0-4B5C-86FA-FA09FE6AC79C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCEF7EF0-2CC0-4B5C-86FA-FA09FE6AC79C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCEF7EF0-2CC0-4B5C-86FA-FA09FE6AC79C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57774BCC-0069-4D71-8A15-A2C888B1B16B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57774BCC-0069-4D71-8A15-A2C888B1B16B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57774BCC-0069-4D71-8A15-A2C888B1B16B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57774BCC-0069-4D71-8A15-A2C888B1B16B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5982127A-A2F6-4A1C-96F5-1DB5396D0683}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5982127A-A2F6-4A1C-96F5-1DB5396D0683}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5982127A-A2F6-4A1C-96F5-1DB5396D0683}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5982127A-A2F6-4A1C-96F5-1DB5396D0683}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3684F86-1D7B-4EC3-82AD-C07CA24BC348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3684F86-1D7B-4EC3-82AD-C07CA24BC348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3684F86-1D7B-4EC3-82AD-C07CA24BC348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3684F86-1D7B-4EC3-82AD-C07CA24BC348}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

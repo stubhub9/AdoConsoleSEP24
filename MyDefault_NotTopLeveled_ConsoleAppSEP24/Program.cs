@@ -1,4 +1,4 @@
-﻿namespace AdoConsoleSEP24
+﻿namespace MyDefault_NotTopLeveled_ConsoleAppSEP24
 {
     internal class Program
     {
@@ -31,8 +31,8 @@
                 if (((ConsoleColor)0 <= value) && (value < (ConsoleColor)15))
                 {
 
-                // New starting color.
-                _newColor = value;
+                    // New starting color.
+                    _newColor = value;
                 }
             }
         }
@@ -54,12 +54,11 @@
 
 
 
-        //    static void Main ( string [] args )
-        //{
-        //    Console.WriteLine ( "Hello, World!" );
+            //    static void Main ( string [] args )
+            //{
+            //    Console.WriteLine ( "Hello, World!" );
         }
         #endregion  Main Constructor
-
 
     }
 }
