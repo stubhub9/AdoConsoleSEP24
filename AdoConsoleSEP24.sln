@@ -11,6 +11,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySqlClient", "MySqlClient\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDefault_NotTopLeveled_ConsoleAppSEP24", "MyDefault_NotTopLeveled_ConsoleAppSEP24\MyDefault_NotTopLeveled_ConsoleAppSEP24.csproj", "{B3684F86-1D7B-4EC3-82AD-C07CA24BC348}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoStuffForm", "AdoStuffForm\AdoStuffForm.csproj", "{0595EF89-B5D9-49AB-A867-979018CB3717}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OleDbClientConsole", "OleDbClientConsole\OleDbClientConsole.csproj", "{3BBA0FF8-D79F-4334-817B-957FF5E3751A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdbcStuffConsole", "OdbcStuffConsole\OdbcStuffConsole.csproj", "{93CCF155-8B03-495B-99B7-2436B9842DC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OracleClientStuffConsole", "OracleClientStuffConsole\OracleClientStuffConsole.csproj", "{FBAD4E4C-BB31-4171-94DE-9C65F6A5E398}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityLinqStuffConsole", "EntityLinqStuffConsole\EntityLinqStuffConsole.csproj", "{0726C0BF-EA06-44BC-843D-AD937CBA1010}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +43,26 @@ Global
 		{B3684F86-1D7B-4EC3-82AD-C07CA24BC348}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3684F86-1D7B-4EC3-82AD-C07CA24BC348}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3684F86-1D7B-4EC3-82AD-C07CA24BC348}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0595EF89-B5D9-49AB-A867-979018CB3717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0595EF89-B5D9-49AB-A867-979018CB3717}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0595EF89-B5D9-49AB-A867-979018CB3717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0595EF89-B5D9-49AB-A867-979018CB3717}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BBA0FF8-D79F-4334-817B-957FF5E3751A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BBA0FF8-D79F-4334-817B-957FF5E3751A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BBA0FF8-D79F-4334-817B-957FF5E3751A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BBA0FF8-D79F-4334-817B-957FF5E3751A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93CCF155-8B03-495B-99B7-2436B9842DC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93CCF155-8B03-495B-99B7-2436B9842DC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93CCF155-8B03-495B-99B7-2436B9842DC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93CCF155-8B03-495B-99B7-2436B9842DC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBAD4E4C-BB31-4171-94DE-9C65F6A5E398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBAD4E4C-BB31-4171-94DE-9C65F6A5E398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBAD4E4C-BB31-4171-94DE-9C65F6A5E398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBAD4E4C-BB31-4171-94DE-9C65F6A5E398}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0726C0BF-EA06-44BC-843D-AD937CBA1010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0726C0BF-EA06-44BC-843D-AD937CBA1010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0726C0BF-EA06-44BC-843D-AD937CBA1010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0726C0BF-EA06-44BC-843D-AD937CBA1010}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
